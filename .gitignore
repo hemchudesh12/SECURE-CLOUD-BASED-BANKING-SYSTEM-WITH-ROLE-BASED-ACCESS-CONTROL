@@ -1,0 +1,4 @@
+# SecureBank — ignore sensitive files
+config/db.php
+.env
+*.log
