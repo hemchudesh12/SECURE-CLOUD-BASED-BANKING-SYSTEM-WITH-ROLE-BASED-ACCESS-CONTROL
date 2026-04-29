@@ -1,10 +1,6 @@
 <?php
-/**
- * Front Controller — ALL HTTP requests route through here.
- * public/index.php is the only entry point.
- */
 
-define('BASE_PATH', dirname(__DIR__));
+define('BASE_PATH', __DIR__);
 
 // ── 1. Load DB config ──────────────────────────────────────
 require_once BASE_PATH . '/config/db.php';
